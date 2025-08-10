@@ -16,6 +16,8 @@ pip install -r requirements.txt
 - 아래 URL 로 code 복사 후 code 파일에 할당
 
 https://kauth.kakao.com/oauth/authorize?client_id=299313409980678e0dcfe9e06e1f6bf0&redirect_uri=https://example.com/oauth&response_type=code&scope=profile_nickname,friends,talk_message
+
+- code 파일에 code 가 저장된 후 request_api.py 파일을 최초 1회 실행
     
 - web_scraper.py 파일 실행 (파이썬)
 
